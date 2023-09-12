@@ -1,0 +1,11 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+Scanner scanner = new Scanner(System.in);
+ System.out.println("Enter a alphabet between at z:");
+char letter = scanner.next().charAt(0);
+    while (letter <= 'z') {
+System.out.println(letter);letter++;
+        }
+    }
+}
